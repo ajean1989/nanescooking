@@ -1,0 +1,34 @@
+.header{
+
+    &--header{
+        color : $primary;
+        font-size: 5em;
+        text-align: center;
+
+        margin : 10px;
+    }
+
+    &--search-bar{
+        background-color: $sec-background;
+        border-radius: 32px;
+
+        height : 30px;
+        width : 80%;
+
+        margin : auto;
+    }
+
+    &--profil{
+        background-color: $sec-background;
+        height: 65px;
+        width : 65px;
+        border-radius: 50%;
+
+        position : absolute;
+        right: 40px;
+        top : 40px;
+
+    }
+}
+
+
